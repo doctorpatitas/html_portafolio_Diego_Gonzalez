@@ -9,9 +9,73 @@
     
 }
 
+#mascotas{
+    background-color: beige
+}
+
+.mini{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.card-mini{
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0px 4px 20px rgba(167, 89, 69, 0.25);
+    border: 2px solid #f0c4b4;
+    padding: 1.5rem;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    transition: transform 0.4s ease;
+}
+
+.card-mini:hover{
+    transform: translateY(-10px)
+}
+
 .mini img{
     font-size: px;
-    border: 5px solid #4b1a1a;
-    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
-    border-radius: 180px; 
+    border: 5px solid #f53707;
+    border-radius: 10%; 
+    box-shadow: 0px 0px 20px 5px rgba(138, 44, 15, 0.575);
+    object-fit: cover;
+    width: 20%;
 }
+
+.chiquilina img{
+    transition: transform 0.4s ease;
+    border: 5px solid #a75945;
+    border-radius: 10%; 
+    box-shadow: 0px 0px 20px 5px rgba(107, 6, 6, 0.575);
+    width: 20%;
+}
+
+.chiquilina img:hover{
+    transform: translateY(-10px)
+}
+
+.pie-pagina a{
+    text-decoration: none;
+}
+
+.mini div{
+    display: flex;
+    background-color: #a75945;
+    gap: 2rem;
+    border-radius: 15px;
+    padding: 2rem;
+    margin: 3rem auto;
+    width: 300px;
+    box-shadow: 0px 0px 10px 2px #5e3125;
+    align-items: right;
+    margin-top: -20%;
+    margin-right: 55%;
+}
+/*agregar un fondo de gatitos/* 
+

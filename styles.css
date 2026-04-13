@@ -36,7 +36,7 @@
 }
 
 .card-mini:hover, .card-chiquilina:hover{
-    transform: translateY(-10px)
+    transform: translateY(-10px);
 }
 
 .card-mini img, .card-chiquilina img{
@@ -64,9 +64,10 @@
     text-decoration: none;
     color: #a75945;
     font-weight: bold;
+    transition: 0.3s;
 }
 
-.pie-pagina{
+.pie-pagina a:hover{
     color: #5e3125; 
 }
 /*agregar un fondo de gatitos/* 

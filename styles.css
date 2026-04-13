@@ -10,72 +10,64 @@
 }
 
 #mascotas{
-    background-color: beige
-}
-
-.mini{
-    display: flex;
-    gap: 2rem;
-    justify-content: center;
-    flex-wrap: wrap;
+    background-color: beige;
+    min-height: 100vh;
     padding: 2rem;
 }
 
-.card-mini{
-    background: #fff;
-    border-radius: 18px;
-    box-shadow: 0px 4px 20px rgba(167, 89, 69, 0.25);
-    border: 2px solid #f0c4b4;
-    padding: 1.5rem;
-    width: 220px;
+.mini, .chiquilina{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.card-mini, .card-chiquilina{
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
+    background-color: #fff8f5;
+    border: 2px solid #a75945; 
+    border-radius: 18px;
+    box-shadow: 0px 4px 16px rgba(167, 89, 69, 0.3);
+    padding: 1.5rem;
+    width: 600px;
     transition: transform 0.4s ease;
 }
 
-.card-mini:hover{
+.card-mini:hover, .card-chiquilina:hover{
     transform: translateY(-10px)
 }
 
-.mini img{
-    font-size: px;
-    border: 5px solid #f53707;
-    border-radius: 10%; 
-    box-shadow: 0px 0px 20px 5px rgba(138, 44, 15, 0.575);
+.card-mini img, .card-chiquilina img{
+    width: 150px;
+    height: 150px;
     object-fit: cover;
-    width: 20%;
+    border-radius: 12px;
+    border: 3px solid #a75945;
+    box-shadow: 0px 0px 10px rgba(107, 6, 6, 0.4);
+    flex-shrink: 0;
 }
 
-.chiquilina img{
-    transition: transform 0.4s ease;
-    border: 5px solid #a75945;
-    border-radius: 10%; 
-    box-shadow: 0px 0px 20px 5px rgba(107, 6, 6, 0.575);
-    width: 20%;
+.card-mini h3, .card-chiquilina h3{
+    font-size: 1.8rem;
+    color: #5e3125;
+    margin: 0;
 }
 
-.chiquilina img:hover{
-    transform: translateY(-10px)
+.pie-pagina{
+    text-align: center;
+    margin-top: 3rem;
 }
 
 .pie-pagina a{
     text-decoration: none;
+    color: #a75945;
+    font-weight: bold;
 }
 
-.mini div{
-    display: flex;
-    background-color: #a75945;
-    gap: 2rem;
-    border-radius: 15px;
-    padding: 2rem;
-    margin: 3rem auto;
-    width: 300px;
-    box-shadow: 0px 0px 10px 2px #5e3125;
-    align-items: right;
-    margin-top: -20%;
-    margin-right: 55%;
+.pie-pagina{
+    color: #5e3125; 
 }
 /*agregar un fondo de gatitos/* 
 

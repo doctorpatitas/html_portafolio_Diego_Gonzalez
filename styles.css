@@ -1,3 +1,20 @@
+/* Reseteo de CSS. */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
 #ambatekum{
     background-color: aqua;
 }
@@ -20,13 +37,30 @@
     padding: 2rem;
 }
 
-.mini, .chiquilina{
+.mascotas-titulo {
+    padding: 1rem;
+    color: #5e3125;
+    text-shadow: 0px 10px 10px rgba(167, 89, 69, 0.3);
+    font-size: 3rem;
+    font-family: "Bubblegum Sans", cursive;
+}
+
+.mascotas-subtitulo{
+    justify-content: left;
+    padding: 1rem;
+    color: #5e3125;
+    text-shadow: 0px 10px 10px rgba(167, 89, 69, 0.3);
+    font-size: 1.5rem;
+    font-family: "Bubblegum Sans", cursive;
+}
+
+.mini, .chiquilina, .misha{
     display: flex;
     justify-content: left;
     margin-bottom: 2rem;
 }
 
-.card-mini, .card-chiquilina{
+.card-mini, .card-chiquilina, .card-misha{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -40,11 +74,11 @@
     transition: transform 0.4s ease;
 }
 
-.card-mini:hover, .card-chiquilina:hover{
+.card-mini:hover, .card-chiquilina:hover, .card-misha:hover{
     transform: translateY(-10px);
 }
 
-.card-mini img, .card-chiquilina img{
+.card-mini img, .card-chiquilina img, .card-misha img{
     width: 150px;
     height: 150px;
     object-fit: cover;
@@ -54,9 +88,11 @@
     flex-shrink: 0;
 }
 
-.card-mini h3, .card-chiquilina h3{
+.card-mini h3, .card-chiquilina h3, .card-misha h3{
     font-size: 1.8rem;
     color: #5e3125;
+    font-family: "Bubblegum Sans", cursive;
+    text-shadow: 0px 10px 10px rgba(167, 89, 69, 0.3);
     margin: 0;
 }
 

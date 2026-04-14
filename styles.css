@@ -9,6 +9,11 @@
     
 }
 
+/* ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------- */
+
+/* Sección de las mascotas. */
+
 #mascotas{
     background-color: beige;
     min-height: 100vh;
@@ -17,7 +22,7 @@
 
 .mini, .chiquilina{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     margin-bottom: 2rem;
 }
 
@@ -56,19 +61,24 @@
 }
 
 .pie-pagina{
-    text-align: center;
+    text-align: left;
     margin-top: 3rem;
 }
 
 .pie-pagina a{
     text-decoration: none;
+    display: inline-block;
+    background-color: #fff8f5;
+    padding: 1rem;
+    border: 2px solid #a75945;
+    border-radius: 18px;
     color: #a75945;
     font-weight: bold;
     transition: 0.3s;
 }
 
 .pie-pagina a:hover{
-    color: #5e3125; 
+    background-color: #a75945;
+    color: #ffffff; 
 }
-/*agregar un fondo de gatitos/* 
-
+/* agregar un fondo de gatitos */

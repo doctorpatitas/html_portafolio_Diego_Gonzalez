@@ -90,7 +90,6 @@ main {
     border-radius: 12px;
     border: 3px solid #a75945;
     box-shadow: 0px 0px 10px rgba(107, 6, 6, 0.4);
-    flex-shrink: 0;
 }
 
 .card-mini h3, .card-chiquilina h3, .card-misha h3{

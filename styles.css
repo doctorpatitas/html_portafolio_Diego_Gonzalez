@@ -1,0 +1,148 @@
+/* Reseteo de CSS. */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* main {
+    flex-grow: 1;
+} */
+
+/* ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------- */
+
+/* Sección de mi portafolio. */
+
+.body-portafolio {
+    background-color: #ca8977;
+}
+
+.body-portafolio h1{
+    font-family: cursive;
+}
+
+.body-portafolio a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 9rem;
+}
+
+.hipervinculo-portafolio {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    gap: 150px;
+}
+
+#proyectos {
+    background-color: aqua;
+}
+
+
+#proyectos img{
+    border-radius: 50%;
+    border: 5px solid #02ecec;
+    box-shadow: 1px 1px 20px #059494;
+    
+}
+
+/* ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------- */
+
+/* Sección de las mascotas. */
+
+#mascotas{
+    background-color: beige;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.mascotas-titulo {
+    padding: 1rem;
+    color: #5e3125;
+    text-shadow: 0px 10px 10px rgba(167, 89, 69, 0.3);
+    font-size: 3rem;
+    font-family: "Bubblegum Sans", cursive;
+}
+
+.mascotas-subtitulo{
+    justify-content: left;
+    padding: 1rem;
+    color: #5e3125;
+    text-shadow: 0px 10px 10px rgba(167, 89, 69, 0.3);
+    font-size: 1.5rem;
+    font-family: "Bubblegum Sans", cursive;
+}
+
+.mini, .chiquilina, .misha{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 2rem;
+}
+
+.card-mini, .card-chiquilina, .card-misha{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    background-color: #fff8f5;
+    border: 2px solid #a75945; 
+    border-radius: 18px;
+    box-shadow: 0px 4px 16px rgba(167, 89, 69, 0.3);
+    padding: 1.5rem;
+    width: 600px;
+    transition: transform 0.4s ease;
+}
+
+.card-mini:hover, .card-chiquilina:hover, .card-misha:hover{
+    transform: translateY(-10px);
+}
+
+.card-mini img, .card-chiquilina img, .card-misha img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 3px solid #a75945;
+    box-shadow: 0px 0px 10px rgba(107, 6, 6, 0.4);
+}
+
+.card-mini h3, .card-chiquilina h3, .card-misha h3{
+    font-size: 1.8rem;
+    color: #5e3125;
+    font-family: "Bubblegum Sans", cursive;
+    text-shadow: 0px 10px 10px rgba(167, 89, 69, 0.3);
+    margin: 0;
+}
+
+.pie-pagina{
+    text-align: left;
+    margin-top: 3rem;
+}
+
+.pie-pagina a{
+    text-decoration: none;
+    display: inline-block;
+    background-color: #fff8f5;
+    padding: 1rem;
+    border: 2px solid #a75945;
+    border-radius: 18px;
+    color: #a75945;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.pie-pagina a:hover{
+    background-color: #a75945;
+    color: #ffffff; 
+}
+/* agregar un fondo de gatitos */

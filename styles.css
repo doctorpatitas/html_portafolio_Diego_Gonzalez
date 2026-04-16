@@ -11,20 +11,44 @@ body {
     min-height: 100vh;
 }
 
-main {
+/* main {
     flex-grow: 1;
-}
+} */
 
 /* ----------------------------------------------------------------- */
 /* ----------------------------------------------------------------- */
 
 /* Sección de mi portafolio. */
 
-#ambatekum{
+.body-portafolio {
+    background-color: #ca8977;
+}
+
+.body-portafolio h1{
+    font-family: cursive;
+}
+
+.body-portafolio a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 9rem;
+}
+
+.hipervinculo-portafolio {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    gap: 150px;
+}
+
+#proyectos {
     background-color: aqua;
 }
 
-#ambatekum img{
+
+#proyectos img{
     border-radius: 50%;
     border: 5px solid #02ecec;
     box-shadow: 1px 1px 20px #059494;

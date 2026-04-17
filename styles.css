@@ -40,9 +40,21 @@ body {
     width: 100%;
     justify-content: center;
     align-items: center;
-    padding: 1.5rem;
     gap: 150px;
     background-color: #5e3125;
+}
+
+.hipervinculo-portafolio a {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+    width: 200px;
+
+}
+
+.hipervinculo-portafolio a:hover {
+    background-color: red;
 }
 
 #proyectos {

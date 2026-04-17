@@ -25,7 +25,8 @@ body {
 }
 
 .body-portafolio h1{
-    font-family: cursive;
+    /* font-family: cursive; */
+    font-size: 60px;
 }
 
 .body-portafolio a{
@@ -41,6 +42,7 @@ body {
     align-items: center;
     padding: 1.5rem;
     gap: 150px;
+    background-color: #5e3125;
 }
 
 #proyectos {
@@ -146,3 +148,6 @@ body {
     color: #ffffff; 
 }
 /* agregar un fondo de gatitos */
+@media screen {
+    
+}

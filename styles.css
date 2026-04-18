@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -25,23 +26,29 @@ body {
 }
 
 .body-portafolio h1{
-    /* font-family: cursive; */
     font-size: 60px;
 }
 
 .body-portafolio a{
     text-decoration: none;
-    font-size: 30px;
-    margin-left: 9rem;
+}
+
+/* Header de mi portafolio */
+
+.header-portafolio {
+    min-height: 90px;
+    position: sticky;
+    top: 0;
 }
 
 .hipervinculo-portafolio {
     display: flex;
+    height: 100%;
     width: 100%;
     justify-content: center;
     align-items: center;
     gap: 150px;
-    background-color: #5e3125;
+    background-color: #d37ceb;
 }
 
 .hipervinculo-portafolio a {
@@ -50,14 +57,31 @@ body {
     padding: 10px;
     margin: 0px;
     width: 200px;
-
+    border-radius: 5px;
+    font-size: 30px;
+    transition: background-color 0.3s ease;
 }
 
 .hipervinculo-portafolio a:hover {
-    background-color: red;
+    background-color: rgb(177, 124, 199);
 }
 
+/* @media (max-width:700px) {
+    .header-portafolio {
+        flex-direction: column;
+    }
+} */
+
+/* Sobre mi de mi portafolio */
+
+#sobre-mi {
+    min-height: 100vh;
+}
+
+/* Proyectos de mi portafolio */
+
 #proyectos {
+    min-height: 100vh;
     background-color: aqua;
 }
 

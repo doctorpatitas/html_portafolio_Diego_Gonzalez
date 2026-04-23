@@ -74,7 +74,7 @@ body {
 
 /* Sobre mi de mi portafolio */
 
-.sobre-mi {
+#sobre-mi {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,23 +86,62 @@ body {
 
 /* Proyectos de mi portafolio */
 
-.proyectos {
-    display: grid;
+#proyectos {
     min-height: 100vh;
     background-color: rgb(22, 24, 24);
-    border: 2px solid black;
+    border: 2px solid rgb(255, 0, 0);
     place-items: center;
+    grid-template-rows: repeat(2, 1fr);
     color: white;
 }
 
-.proyectos img {
+#proyectos img {
     border-radius: 50%;
     border: 5px solid #02ecec;
     box-shadow: 1px 1px 20px #059494;
 }
 
-.proyectos a {
-    text-decoration: none;
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    min-width: 100vh;
+    min-height: 100vh;
+    place-items: center;
+    margin-top: 3rem;
+    border: 5px solid white;
+}
+
+.culebrita {
+    display: grid;
+    gap: 2rem;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 700px;
+    border: 1px solid rgb(96, 209, 68);
+    border-radius: 5px;
+}
+
+.gatas {
+    display: grid;
+    gap: 2rem;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 700px;
+    border: 1px solid beige;
+    border-radius: 5px;
+}
+
+.hola {
+    display: grid;
+    gap: 2rem;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 700px;
+    border: 1px solid red;
+    border-radius: 5px;
 }
 
 /* ----------------------------------------------------------------- */

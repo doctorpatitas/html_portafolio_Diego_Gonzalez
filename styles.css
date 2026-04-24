@@ -20,13 +20,8 @@ body {
 /* ----------------------------------------------------------------- */
 
 /* Sección de mi portafolio. */
-
-.body-portafolio {
-    background-color: #ca8977;
-}
-
 .body-portafolio h1 {
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .body-portafolio a {
@@ -39,12 +34,14 @@ body {
     min-height: 90px;
     position: sticky;
     top: 0;
+    background-color: black;
 }
 
 .hipervinculo-portafolio {
     display: flex;
     height: 100%;
     width: 100%;
+    position: absolute;
     justify-content: center;
     align-items: center;
     gap: 150px;
@@ -58,12 +55,12 @@ body {
     margin: 0px;
     width: 200px;
     border-radius: 5px;
-    font-size: 30px;
+    font-size: 20px;
     transition: background-color 0.3s ease;
 }
 
 .hipervinculo-portafolio a:hover {
-    background-color: rgb(177, 124, 199);
+    background-color: #af57c7;
 }
 
 /* @media (max-width:700px) {
@@ -95,12 +92,6 @@ body {
     color: white;
 }
 
-#proyectos img {
-    border-radius: 50%;
-    border: 5px solid #02ecec;
-    box-shadow: 1px 1px 20px #059494;
-}
-
 .contenedor {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -117,9 +108,17 @@ body {
     text-align: center;
     margin-left: 100px;
     margin-right: 100px;
+    min-height: 700px;
+    width: 340px;
     height: 700px;
     border: 1px solid rgb(96, 209, 68);
     border-radius: 5px;
+}
+
+.culebrita img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .gatas {
@@ -128,9 +127,17 @@ body {
     text-align: center;
     margin-left: 100px;
     margin-right: 100px;
+    min-height: 700px;
+    width: 340px;
     height: 700px;
     border: 1px solid beige;
     border-radius: 5px;
+}
+
+.gatas img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .hola {
@@ -139,6 +146,8 @@ body {
     text-align: center;
     margin-left: 100px;
     margin-right: 100px;
+    min-height: 700px;
+    width: 340px;
     height: 700px;
     border: 1px solid red;
     border-radius: 5px;
@@ -172,13 +181,13 @@ body {
     font-family: "Bubblegum Sans", cursive;
 }
 
-.mini, .chiquilina, .misha {
+.mini, .chiquilina, .misha, .negra{
     display: flex;
     justify-content: left;
     margin-bottom: 2rem;
 }
 
-.card-mini, .card-chiquilina, .card-misha {
+.card-mini, .card-chiquilina, .card-misha, .card-negra{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -192,11 +201,11 @@ body {
     transition: transform 0.4s ease;
 }
 
-.card-mini:hover, .card-chiquilina:hover, .card-misha:hover {
+.card-mini:hover, .card-chiquilina:hover, .card-misha:hover, .card-negra:hover{
     transform: translateY(-10px);
 }
 
-.card-mini img, .card-chiquilina img, .card-misha img {
+.card-mini img, .card-chiquilina img, .card-misha img, .card-negra img{
     width: 150px;
     height: 150px;
     object-fit: cover;
@@ -205,7 +214,7 @@ body {
     box-shadow: 0px 0px 10px rgba(107, 6, 6, 0.4);
 }
 
-.card-mini h3, .card-chiquilina h3, .card-misha h3 {
+.card-mini h3, .card-chiquilina h3, .card-misha h3, .card-negra h3{
     font-size: 1.8rem;
     color: #5e3125;
     font-family: "Bubblegum Sans", cursive;

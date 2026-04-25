@@ -31,7 +31,7 @@ body {
 /* Header de mi portafolio */
 
 .header-portafolio {
-    min-height: 90px;
+    min-height: 70px;
     position: sticky;
     top: 0;
     background-color: black;
@@ -39,11 +39,11 @@ body {
 
 .hipervinculo-portafolio {
     display: flex;
-    height: 100%;
-    width: 100%;
     position: absolute;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 100%;
     gap: 150px;
     background-color: #d37ceb;
 }
@@ -62,12 +62,6 @@ body {
 .hipervinculo-portafolio a:hover {
     background-color: #af57c7;
 }
-
-/* @media (max-width:700px) {
-    .header-portafolio {
-        flex-direction: column;
-    }
-} */
 
 /* Sobre mi de mi portafolio */
 

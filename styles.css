@@ -128,12 +128,28 @@ body {
 }
 
 .gatas {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 700px;
+    height: 700px;
+    width: 350px;
+    border: 1px solid beige;
+    border-radius: 5px;
+}
+
+.gatas:hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     min-height: 700px;
     height: 700px;
     width: 350px;
     border: 1px solid beige;
     border-radius: 5px;
+    background-image: url(ProyectosPortafolioGifs/paginamascotas.gif);
+    background-size: cover;
 }
 
 .gatas img {

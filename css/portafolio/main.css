@@ -1,0 +1,105 @@
+/* Main mi de mi portafolio */
+/* Sobre mi*/
+
+#sobre-mi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #6716ff;
+    min-height: 100vh;
+    color: white;
+}
+
+/* Proyectos de mi portafolio */
+
+#proyectos {
+    min-height: 100vh;
+    background-color: rgb(22, 24, 24);
+    border: 2px solid rgb(255, 0, 0);
+    place-items: center;
+    color: white;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+    min-width: 100vh;
+    min-height: 100vh;
+    place-items: center;
+    border: 3px solid white;
+}
+
+.culebrita {
+    display: flex;
+    flex-direction: column;
+    min-height: 700px;
+    height: 700px;
+    width: 350px;
+    border: 1px solid rgb(96, 209, 68);
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+
+.culebrita:hover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 700px;
+    height: 700px;
+    width: 350px;
+    border: 1px solid rgb(96, 209, 68);
+    border-radius: 5px;
+    background-image: url("assets/ProyectosPortafolioGifs/Green-anaconda.jpeg");
+    background-position-x: 87%;
+    background-position-y: center;
+    background-size: cover;
+}
+
+.culebrita h2 {
+    text-align: center;
+    width: 100%;
+}
+
+.gatas {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 700px;
+    height: 700px;
+    width: 350px;
+    border: 1px solid beige;
+    border-radius: 5px;
+}
+
+.gatas:hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 700px;
+    height: 700px;
+    width: 350px;
+    border: 1px solid beige;
+    border-radius: 5px;
+    background-image: url("assets/ProyectosPortafolioGifs/paginamascotas.gif");
+    background-size: cover;
+}
+
+.gatas img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center left;
+}
+
+.futuro {
+    text-align: center;
+    min-height: 700px;
+    height: 700px;
+    width: 350px;
+    border: 1px solid red;
+    border-radius: 5px;
+}

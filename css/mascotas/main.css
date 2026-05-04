@@ -1,0 +1,46 @@
+/* Main */
+.mini, .chiquilina, .misha, .negra{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 2rem;
+}
+
+.card-mini, .card-chiquilina, .card-misha, .card-negra{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    background-color: #fff8f5;
+    border: 2px solid #a75945; 
+    border-radius: 18px;
+    box-shadow: 0px 4px 16px rgba(167, 89, 69, 0.3);
+    padding: 1.5rem;
+    width: 600px;
+    transition: transform 0.4s ease;
+}
+
+.card-mini:hover, .card-chiquilina:hover, .card-misha:hover, .card-negra:hover{
+    transform: translateY(-10px);
+}
+
+.card-mini img, .card-chiquilina img, .card-misha img, .card-negra img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 3px solid #a75945;
+    box-shadow: 0px 0px 10px rgba(107, 6, 6, 0.4);
+}
+
+.card-mini h3, .card-chiquilina h3, .card-misha h3, .card-negra h3{
+    font-size: 1.8rem;
+    color: #5e3125;
+    font-family: "Bubblegum Sans", cursive;
+    text-shadow: 0px 10px 10px rgba(167, 89, 69, 0.3);
+    margin: 0;
+}
+
+/* agregar un fondo de gatitos */
+@media screen {
+    
+}

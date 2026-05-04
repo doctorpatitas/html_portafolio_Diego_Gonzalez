@@ -1,0 +1,23 @@
+/* Footer de mascotas */
+.pie-pagina {
+    text-align: left;
+    margin-top: 3rem;
+}
+
+.pie-pagina a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: #fff8f5;
+    padding: 1rem;
+    border: 2px solid #a75945;
+    border-radius: 18px;
+    color: #a75945;
+    font-weight: bold;
+    transition: 0.3s;
+    font-family: "Bubblegum Sans", cursive;
+}
+
+.pie-pagina a:hover {
+    background-color: #a75945;
+    color: #ffffff; 
+}

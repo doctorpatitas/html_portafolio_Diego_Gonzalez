@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #6716ff;
+    background: linear-gradient(to bottom left, #6600c5, #000000);
     min-height: 100vh;
     color: white;
 }
@@ -52,7 +52,7 @@
     width: 350px;
     border: 1px solid rgb(96, 209, 68);
     border-radius: 5px;
-    background-image: url("assets/ProyectosPortafolioGifs/Green-anaconda.jpeg");
+    background-image: url("../../assets/ProyectosPortafolioGifs/Green-anaconda.jpeg");
     background-position-x: 87%;
     background-position-y: center;
     background-size: cover;
@@ -84,7 +84,7 @@
     width: 350px;
     border: 1px solid beige;
     border-radius: 5px;
-    background-image: url("assets/ProyectosPortafolioGifs/paginamascotas.gif");
+    background-image: url("../../assets/ProyectosPortafolioGifs/paginamascotas.gif");
     background-size: cover;
 }
 

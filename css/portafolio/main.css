@@ -24,8 +24,8 @@
 .contenedor {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 5rem;
-    min-width: 100vh;
+    gap: 2rem;
+    min-width: 100vw;
     min-height: 100vh;
     place-items: center;
     border: 3px solid white;
@@ -36,10 +36,11 @@
     flex-direction: column;
     min-height: 700px;
     height: 700px;
-    width: 350px;
+    width: 100%;
     border: 1px solid rgb(96, 209, 68);
     border-radius: 5px;
     transition: all 0.5s ease-in-out;
+    clip-path: polygon(20% 0, 100% 0, 80% 100%, 0 100%);
 }
 
 .culebrita:hover {
@@ -49,7 +50,7 @@
     justify-content: center;
     min-height: 700px;
     height: 700px;
-    width: 350px;
+    width: 100%;
     border: 1px solid rgb(96, 209, 68);
     border-radius: 5px;
     background-image: url("../../assets/ProyectosPortafolioGifs/Green-anaconda.jpeg");
@@ -69,9 +70,10 @@
     flex-direction: column;
     min-height: 700px;
     height: 700px;
-    width: 350px;
+    width: 100%;
     border: 1px solid beige;
     border-radius: 5px;
+    clip-path: polygon(20% 0, 100% 0, 80% 100%, 0 100%);
 }
 
 .gatas:hover {
@@ -81,7 +83,7 @@
     text-align: center;
     min-height: 700px;
     height: 700px;
-    width: 350px;
+    width: 100%;
     border: 1px solid beige;
     border-radius: 5px;
     background-image: url("../../assets/ProyectosPortafolioGifs/paginamascotas.gif");
@@ -99,7 +101,8 @@
     text-align: center;
     min-height: 700px;
     height: 700px;
-    width: 350px;
+    width: 100%;
     border: 1px solid red;
     border-radius: 5px;
+    clip-path: polygon(20% 0, 100% 0, 80% 100%, 0 100%);
 }
